@@ -1,0 +1,103 @@
+body {
+    font-family: 'Playfair Display', Arial, serif;
+    color: #626262;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 900px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    padding-top: 72px;
+    padding-bottom: 100px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li:not(:last-child) {
+    margin-right: 104px;
+}
+
+nav a {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #03a9f4;
+}
+
+section {
+    font-size: 0;
+}
+
+article {
+    margin-bottom: 130px;
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+
+article:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+
+article:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: 26px;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', serif;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.headline {
+    margin-bottom: 34px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.article-text {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.download-button {
+    margin: 52px auto 70px auto;
+    display: block;
+    width: 164px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+    background-color: #fff;
+    border: 1px solid #626262;
+    cursor: pointer;
+    text-align: center;
+}
