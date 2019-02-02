@@ -1,0 +1,254 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  width: 1110px;
+}
+
+/* HEADER */
+header {
+  margin: 36px 0 106px 0;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  font-family: "Roboto", Arial, serif;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #555252;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;
+}
+
+.logo::first-letter {
+  font-family: "Roboto", Arial, serif;
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.site-navigation {
+  padding: 10px 0 0 0;
+  margin: 0;
+  width: 464px;
+  list-style-type: none;
+  float: right;
+}
+
+.site-navigation li {
+  font-size: 14px;
+  line-height: 11px;
+  text-transform: uppercase;
+  float: left;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 27px;
+}
+
+.site-navigation a {
+  font-family: "Open Sans", Arial, serif;
+  color: #0f0101;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #1abc9c;
+}
+
+/* Headline */
+.section-name {
+  margin: 0;
+  font-family: "Roboto", Arial, serif;
+  font-size: 48px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #515151;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-name::after {
+  content: '';
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+}
+
+.products {
+  margin-bottom: 92px;
+}
+
+.news {
+  margin-bottom: 80px;
+}
+
+/* SECTION Featured products */
+.featured-products {
+  margin-bottom: 106px;
+}
+
+.featured-products-list {
+  margin: 0;
+  padding: 0;
+}
+
+.featured-products-item {
+  margin-bottom: 32px;
+  width: 255px;
+  list-style-type: none;
+  float: left;
+}
+
+.featured-products-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.featured-products-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.featured-products-item:hover .item-text {
+  background-color: #1abc9c;
+}
+
+.featured-products-item:hover .price {
+  background-color: #7fd9c7;
+}
+
+.item-picture {
+  /* height: 282px; */
+  background-color: #e8effc;
+  line-height: 282px;
+  text-align: center;
+}
+
+.item-picture img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.item-text {
+  margin: 0;
+  height: 40px;
+  background-color: #323232;
+}
+
+.item-name,
+.price {
+  margin: 0;
+  font-family: "Roboto", Arial, serif;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.item-name {
+  padding-left: 14px;
+  float: left;
+}
+
+.price {
+  width: 55px;
+  float: right;
+  background-color: #8c8c8c;
+  text-align: center;
+}
+
+.price::before {
+  content: "$";
+}
+
+.featured-products-list li:hover price {
+  background-color: #1abc9c;
+}
+
+/* SECTION Latest news */
+.latest-news {
+  margin-bottom: 80px;
+}
+
+.article-news {
+  width: 350px;
+  font-family: "Open Sans", Arial, serif;
+  line-height: 26px;
+  color: #555252;
+  float: left;
+}
+
+.article-news:not(:last-child) {
+  margin-right: 30px;
+}
+
+.article-name {
+  margin: 12px 0 24px 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.article-name::after {
+  content: '';
+  display: block;
+  margin-top: 8px;
+  width: 136px;
+  height: 4px;
+  background-color: #1abc9c;
+}
+
+.article-text {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.download-button {
+  padding: 14px 44px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Open Sans", Arial, serif;
+  background-color: #4ec6ab;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  font-weight: lighter;
+  color: #fff;
+}
