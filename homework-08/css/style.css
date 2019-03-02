@@ -1,0 +1,197 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.site-header {
+  margin: 0 auto 72px auto;
+  padding-top: 20px;
+  background-image: url(../img/header/header-320.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 540px;
+  text-align: center;
+}
+
+.enter {
+  margin-bottom: 108px;
+}
+
+.button-enter {
+  padding: 12px 14px 12px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.button-sign {
+  padding-left: 14px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.logo {
+  margin-bottom: 34px;
+}
+
+.logo a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header-headline {
+  margin: 0 0 18px 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header-text {
+  margin: 0 auto 18px auto;
+  width: 68.75%;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+
+.button-find {
+  padding: 14px 50px;
+  background-color: #ff4e50;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* SECTION PARTNERS */
+.partners {
+  margin: 0 auto 58px auto;
+  max-width: 320px;
+  text-align: center;
+}
+
+.partners-headline {
+  margin: 0 0 14px 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 22px;
+  color: #333;
+}
+
+.partners-list {
+  margin: 0;
+  padding: 0;
+}
+
+.partners-item {
+  margin: 0 auto 28px auto;
+  width: 68.75%;
+}
+
+.partners-picture {
+  position: relative;
+  margin: 0 auto;
+  width: 124px;
+}
+
+.partners-picture img {
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+}
+
+.icon {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: content-box;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-1 {
+  background-color: #ff4e50;
+  background-image: url(../img/icons/icon-1.png);
+}
+
+.icon-2 {
+  background-color: #ffa507;
+  background-image: url(../img/icons/icon-2.png);
+}
+
+.icon-3 {
+  background-color: #1cd7ad;
+  background-image: url(../img/icons/icon-3.png);
+}
+
+.icon-4 {
+  background-color: #4e73db;
+  background-image: url(../img/icons/icon-4.png);
+}
+
+.partner-name {
+  margin: 0 0 18px 0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333;
+}
+
+.partner-about {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  color: #666;
+}
+
+.button-other {
+  padding: 14px 70px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ff4e50;
+  background: none;
+  border: 2px solid #ff4e50;
+  border-radius: 50px;
+  cursor: pointer;
+}
