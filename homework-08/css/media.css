@@ -4,6 +4,27 @@
     min-height: 700px;
   }
 
+  .header-headline {
+    margin: 0 auto 36px auto;
+    width: 80%;
+    font-size: 42px;
+  }
+
+  .header-text {
+    margin-bottom: 38px;
+    font-size: 24px;
+  }
+
+  .partners-item {
+    width: 80%;
+  }
+}
+
+@media (min-width: 481px) {
+  .site-header {
+    min-height: 700px;
+  }
+
   .logo-overlay {
     margin: 0 auto 148px auto;
     width: 87.63%;
@@ -22,14 +43,7 @@
   }
 
   .header-headline {
-    margin: 0 auto 36px auto;
-    width: 80%;
     font-size: 52px;
-  }
-
-  .header-text {
-    margin-bottom: 38px;
-    font-size: 24px;
   }
 
   .button-find {
@@ -59,7 +73,6 @@
 
 @media (min-width: 769px) {
   .site-header {
-    background-image: url(../img/header/header-max.jpg);
     background-size: cover;
     background-position: center;
   }
