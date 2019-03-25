@@ -32,7 +32,7 @@ img {
 
 .wrapper {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 /* HEADER */
@@ -67,7 +67,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 1134px;
   text-align: center;
 }
 
@@ -202,6 +201,7 @@ img {
 .site-header__btn {
   display: inline-block;
   padding: 10px 30px;
+  margin-bottom: 312px;
   font-family: "Montserrat", Arial, serif;
   font-size: 14px;
   font-weight: 700;
