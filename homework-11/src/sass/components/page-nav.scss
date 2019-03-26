@@ -1,0 +1,20 @@
+.page-nav {
+  margin-bottom: 158px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 36px;
+
+  &__logo {
+    font-family: $first-font;
+    font-size: 30px;
+    font-weight: 700;
+    color: $header-text-color;
+  }
+
+  &__overlay {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+  }
+}

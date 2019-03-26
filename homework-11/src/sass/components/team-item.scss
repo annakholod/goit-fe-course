@@ -1,0 +1,38 @@
+.team-item {
+  margin-bottom: 50px;
+  width: 380px;
+
+  &:hover .team-image__img {
+    animation: anim 2s infinite alternate;
+  }
+
+  &:hover &__gradient {
+    animation: anim 2s infinite alternate;
+    background-image: linear-gradient(
+      to top,
+      $first-bg-color-rgba,
+      $second-bg-color-rgba);
+  }
+
+  &:hover .team-icons {
+    opacity: 1;
+  }
+
+  &__gradient {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 380px;
+    height: 470px;
+  }
+}
+
+@keyframes anim {
+  0% {
+    transform: translate(0, 0);
+    background-image: linear-gradient(to top, $first-bg-color-rgba, $second-bg-color-rgba);
+  }
+  100% {
+    transform: translate(-10px, -10px);
+  }
+}

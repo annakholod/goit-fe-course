@@ -1,0 +1,29 @@
+.services {
+  margin-bottom: 87px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  &__icon::before {
+    position: absolute;
+    left: 20px;
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+$icons: photography, web-design, creativity, seo, css-html, digital;
+
+@include pseudo-icons(
+  'services__icon--',
+  $icons,
+  '../images/icon-',
+  'png'
+);

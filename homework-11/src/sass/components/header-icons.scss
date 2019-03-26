@@ -1,0 +1,34 @@
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 78px;
+
+  &__item {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__item--cart {
+    background-image: url(../images/icon-cart.png);
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url(../images/icon-cart@2x.png);
+    }
+  }
+
+  &__item--serch {
+    background-image: url(../images/icon-serch.png);
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url(../images/icon-serch@2x.png);
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

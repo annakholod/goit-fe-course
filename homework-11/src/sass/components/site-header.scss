@@ -1,0 +1,59 @@
+.site-header {
+  padding-top: 38px;
+  margin-bottom: 44px;
+  background-image: linear-gradient(
+      to top,
+      $first-bg-color-rgba,
+      $second-bg-color-rgba
+    ),
+    url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1134px;
+  text-align: center;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: linear-gradient(
+        to top,
+        $first-bg-color-rgba,
+        $second-bg-color-rgba
+      ),
+      url(../images/header@2x.jpg);
+  }
+
+  &__text {
+    margin: 0 0 60px 0;
+    padding: 0;
+    font-family: $second-font;
+    font-size: 72px;
+    color: $header-text-color;
+    text-align: center;
+  }
+
+  &__headline {
+    margin: 0 auto 126px auto;
+    padding: 0;
+    width: 980px;
+    font-family: $first-font;
+    font-size: 150px;
+    line-height: 140px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: $header-text-color;
+  }
+
+  &__btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-family: $first-font;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $header-text-color;
+    background: none;
+    border: 3px solid #fff;
+    cursor: pointer;
+  }
+}

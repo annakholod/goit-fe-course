@@ -1,0 +1,11 @@
+@mixin pseudo-icons($baseclass, $list, $path, $ext) {
+  @each $icon in $list {
+    .#{$baseclass}#{$icon}::before {
+      background-image: url(#{$path}#{$icon}.#{$ext});
+
+      @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(#{$path}#{$icon}@2x.#{$ext});
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.team-icons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  width: 224px;
+  height: 56px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+
+  &__socials {
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $first-bg-color;
+    transition: background-color 0.2s linear;
+  }
+
+  &__socials:not(:last-child) {
+    margin-right: 1px;
+  }
+
+  &__socials:hover {
+    background-color: $second-bg-color;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+  }
+
+  &__svg {
+    display: block;
+    fill: $social-icons;
+  }
+
+  &__socials:hover svg {
+    fill: $social-icons-active;
+  }
+
+  &__svg--facebook {
+    width: 13px;
+    height: 26px;
+  }
+
+  &__svg--twitter {
+    width: 26px;
+    height: 22px;
+  }
+
+  &__svg--pinterest {
+    width: 21px;
+    height: 26px;
+  }
+
+  &__svg--instagram {
+    width: 26px;
+    height: 26px;
+  }
+}

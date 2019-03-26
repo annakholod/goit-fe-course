@@ -1,0 +1,45 @@
+.footer-form {
+  display: flex;
+
+  &__input {
+    padding: 0 14px;
+    width: 228px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    font-family: "Roboto", Arial, serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: $primary-text-color;
+    font-weight: 300;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+::-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+:-moz-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  color: #ccc;
+  font-style: italic;
+}
+
+.footer-form__btn {
+  padding: 0 32px;
+  height: 40px;
+  border: none;
+  background-color: $third-bd-color;
+  font-family: "Montserrat", Arial, serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $header-text-color;
+  cursor: pointer;
+}
